@@ -1,0 +1,25 @@
+# Dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Build output (ignored when building development image)
+build
+dist
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS and editor files
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# Git files
+.git
+.gitignore
